@@ -8,7 +8,6 @@ import Card2 from './components/Card2';
 
 
 //1 Add in the starter code for app.js
-
 function App() {
   return (
     <div className="App">

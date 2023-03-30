@@ -5,11 +5,17 @@ import CardBody from './CardBody'
 import CardImage from './CardImage'
 
 //create the component
+
+
+
+
 const Card1 = () => {
 return (
   <div className="card" style={ {width: "18rem"} }>
   <CardImage />
-  <CardBody/>
+
+  {/* 11) we are going to pass in a prop title */}
+  <CardBody title="santorini"/>
 </div>
   );
 };

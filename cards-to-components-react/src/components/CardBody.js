@@ -2,7 +2,16 @@
 import React from "react"
 import Button from "./Button";
 
-const CardBody = () => {
+
+
+// 10 pass in a prop to CardBody
+const CardBody = (props) => {
+
+    console.log("this is props", props) // we get an object back
+    //12 here we are trying to change the props.title 
+    props.title = "mykonos"
+    console.log("props.title", props.title)
+
     return (
       <div className="card-body">
           <h5 className="card-title">Card 1</h5>

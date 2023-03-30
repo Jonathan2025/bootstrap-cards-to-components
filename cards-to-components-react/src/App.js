@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+// 7 import the components
+import Card1 from './components/Card1';
+import Card2 from './components/Card2';
+
+
+
 //1 Add in the starter code for app.js
 
 function App() {

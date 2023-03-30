@@ -1,5 +1,6 @@
 // 4 added in the starter code for CardBody.js
 import React from "react"
+import Button from "./Button";
 
 const CardBody = () => {
     return (

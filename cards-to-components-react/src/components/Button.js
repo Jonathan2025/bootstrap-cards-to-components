@@ -1,9 +1,11 @@
 // 3 added in the starter code for Button.js
 import React from 'react'
 
-const Button = () => {
+
+// 24 now we need to add in the props and then change the url to be props.url
+const Button = (props) => {
   return (
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <a href={props.url} className="btn btn-primary">Go somewhere</a>
   )
 }
 

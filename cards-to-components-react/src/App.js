@@ -13,8 +13,45 @@ console.log("this is cardsArray", cardsArray)
 
 
 
+
+
 //1 Add in the starter code for app.js
 function App() {
+
+
+
+  // 16 now we will create a cards variable that MAPs to the cardArray Data
+  // 17 dont forget to pass in parameters element and index 
+  const cards = cardsArray.map((Element, index) => {
+    return (
+
+
+      // 18 now we create a card1 with the following props img,title, etc
+      <Card1
+        img={Element.img}
+        title={Element.title}
+        text={Element.text}
+        url={Element.url}
+
+
+        // normally when we try to access a unique element in an array we usually do so by id OR symbol 
+        // something will be needed to distinguish it as unique 
+        // react does so by assigning a unique key 
+        // any components created within a .map MUST be assigned a unique key 
+
+
+
+
+      /> 
+
+    )
+  })
+
+
+
+
+
+
   return (
     <div className="App">
       <h1>Bootcamp Cards to Component Example</h1>

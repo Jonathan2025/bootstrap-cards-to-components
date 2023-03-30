@@ -1,9 +1,10 @@
 // 2 add in the starter code for CardImage
 
-const CardImage = () => {
+// 23 now we need to add in props and then change the img src to be props.img
+const CardImage = (props) => {
     return (
       <img
-        src="https://images.unsplash.com/photo-1560703650-ef3e0f254ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+        src={props.img}
         className="card-img-top"
         alt="..."
       />

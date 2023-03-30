@@ -19,11 +19,13 @@ const CardBody = (props) => {
       <div className="card-body">
         {/* 13 now we will pass in props.title */}
           <h5 className="card-title">{props.title}</h5> 
+
+          {/* 22 now we will add in the props.text */}
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+           {props.text}
           </p>
-          <Button />
+          {/* 23 now we also add in props.url to the button */}
+          <Button url={props.url}/>
         </div>
     );
   };

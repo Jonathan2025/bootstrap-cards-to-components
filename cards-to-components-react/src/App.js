@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-//import card1 and 2 
+//1 Add in the starter code for app.js
 
 function App() {
   return (

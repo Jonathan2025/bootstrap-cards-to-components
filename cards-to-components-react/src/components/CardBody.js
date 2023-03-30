@@ -8,13 +8,17 @@ import Button from "./Button";
 const CardBody = (props) => {
 
     console.log("this is props", props) // we get an object back
-    //12 here we are trying to change the props.title 
-    props.title = "mykonos"
-    console.log("props.title", props.title)
+    //12 here we are trying to change the props.title, but the Card1.js santorini take precedence
+    // remember props are immutable
+    // props.title = "mykonos"
+
+
+    console.log("props.title", props.title) // santorini
 
     return (
       <div className="card-body">
-          <h5 className="card-title">Card 1</h5>
+        {/* 13 now we will pass in props.title */}
+          <h5 className="card-title">{props.title}</h5> 
           <p className="card-text">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.

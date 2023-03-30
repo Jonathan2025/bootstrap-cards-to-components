@@ -14,7 +14,7 @@ return (
   <div className="card" style={ {width: "18rem"} }>
   <CardImage />
 
-  {/* 11) we are going to pass in a prop title */}
+  {/* 11) we are going to pass in a prop title, this will take precedence than over in cardBody */}
   <CardBody title="santorini"/>
 </div>
   );

@@ -5,6 +5,12 @@ import './App.css';
 import Card1 from './components/Card1';
 import Card2 from './components/Card2';
 
+//15 import the data, now its not named cardsArray in the file but here we are naming it 
+import cardsArray from "./data.js"
+
+
+console.log("this is cardsArray", cardsArray)
+
 
 
 //1 Add in the starter code for app.js

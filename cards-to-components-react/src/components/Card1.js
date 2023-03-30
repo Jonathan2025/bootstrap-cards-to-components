@@ -17,7 +17,10 @@ return (
 
   {/* 11) we are going to pass in a prop title, this will take precedence than over in cardBody */}
   {/* 21 now we will add in the props to cardBody */}
-  <CardBody title={props.title} text={props.text} url={props.url}/>
+  <CardBody 
+  title={props.title} 
+  text={props.text} 
+  url={props.url}/>
 
 
 

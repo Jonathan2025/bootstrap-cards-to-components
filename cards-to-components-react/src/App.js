@@ -38,8 +38,9 @@ function App() {
         // something will be needed to distinguish it as unique 
         // react does so by assigning a unique key 
         // any components created within a .map MUST be assigned a unique key 
-
-
+        
+        //26 so now we need to add in the key property and then giving it a value, key={index}
+        key={index}
 
 
       /> 
@@ -56,8 +57,14 @@ function App() {
     <div className="App">
       <h1>Bootcamp Cards to Component Example</h1>
       <section className="cards">
-        <Card1 /> 
-        <Card2 />
+
+        {/* 25 instead of putting card1 and card2 we are going to put in the map function that we were using */}
+        {/* <Card1 /> 
+        <Card2 /> */}
+
+        {cards}
+
+
       </section>
     </div>
   );

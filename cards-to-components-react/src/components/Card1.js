@@ -20,7 +20,10 @@ return (
   <CardBody 
   title={props.title} 
   text={props.text} 
-  url={props.url}/>
+  url={props.url}
+
+  />
+
 
 
 

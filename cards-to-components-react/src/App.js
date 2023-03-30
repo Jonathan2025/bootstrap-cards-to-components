@@ -2,8 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 // 7 import the components
+
 import Card1 from './components/Card1';
-import Card2 from './components/Card2';
+
+//27 can comment card2 out because we dont use it anymore
+// import Card2 from './components/Card2';
 
 //15 import the data, now its not named cardsArray in the file but here we are naming it 
 import cardsArray from "./data.js"
@@ -40,6 +43,7 @@ function App() {
         // any components created within a .map MUST be assigned a unique key 
         
         //26 so now we need to add in the key property and then giving it a value, key={index}
+        // you do NOT need to add this in card1.js
         key={index}
 
 
